@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
-	<title>vending machine</title>
+	<title>2021_01_12_load_more_php_and_js_fetch</title>
 </head>
 
 <body>
@@ -34,7 +34,7 @@
 		let imgContainer = document.getElementById("imgContainer");
 		// 26 _ sukuriamas kintamasis, kurio pagalba sekama kiek img jau yra
 		let imgNumber = 0;
-		// 8 _ ant buttono uzregistrujama f-ja, kuri bus skvieciama paclikinus
+		// 8 _ ant buttono uzregistrujama f-ja, kuri bus iskvieciama paclikinus
 		button.addEventListener("click", function() {
 			// 9 _ iskvieciamas fetch f-ja, kuri daro internetine uzklausa i adresa
 			// 20 _  parasomas get parametas ?from=0 tam,
